@@ -5,7 +5,7 @@ void ButtonPressedMessage2(void);
 
 int main()
 {
-    printf("Before Register\n\r");
+    printf("Before Register ...\n\r");
     ButtonEvent();
     
     PressedCallbackRegister(ButtonPressedMessage);
